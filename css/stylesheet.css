@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - SB Admin v4.0.0-beta (https://startbootstrap.com/template-overviews/sb-admin)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
+ */
+ html {
+    position: relative;
+    min-height: 100%; }
+  
+  .content-wrapper {
+    min-height: calc(100vh - 56px);
+    padding-top: 1rem; }
+  
+  .card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -25px;
+    right: -25px;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg); }
+  
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .title {
+      text-align: center;
+      font-size: 60px;
+      height: 120px;
+      padding-top: 12px;
+  }
+
+  .category {
+      margin-bottom : 30px;
+  }
+
+  #category-study {
+      background-color: #FE000F; 
+  }
+
+  #category-game {
+      background-color: #3302F9
+  }
+
+  #category-mobile {
+      background-color: #010100
+  }
+  #timer {
+    width : 400px;
+    height: 260px;
+    margin : 0 auto;
+    font-family : 'Lato' , sans-serif;
+    font-size : 2em;
+    font-weight: 300;
+  }
+  
+  #timerView {
+    width : 390px;
+    margin : 0 auto;    
+    font-family : 'Helvetica' , sans-serif;
+    font-size : 2.5em;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  #timerButton {
+    width : 390px;
+    margin : 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #startButton {
+    cursor: pointer;
+    width : 130px;
+    height : 80px;
+    float: left;
+  }
+  
+  #startImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #pauseButton {
+    cursor: pointer;
+    width : 130px;
+    height : 80px;
+    float: left;
+  }
+  
+  #pauseImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #stopButton {
+    cursor: pointer;
+    width : 128px;
+    height : 80px;
+    float: left;   
+  }
+  
+  #stopButton:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  #stopImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #example1 {
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+
+  
